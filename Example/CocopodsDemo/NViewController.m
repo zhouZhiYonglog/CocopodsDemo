@@ -7,7 +7,7 @@
 //
 
 #import "NViewController.h"
-
+#import "NSString+Category.h"
 @interface NViewController ()
 
 @end
@@ -17,7 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    [NSString isBlankString:@"测试字符是否为空"];
 }
 
 - (void)didReceiveMemoryWarning
