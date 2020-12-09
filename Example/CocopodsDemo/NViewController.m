@@ -19,6 +19,7 @@
     [super viewDidLoad];
 	
     [NSString isBlankString:@"测试字符是否为空"];
+    [NSString isBlankString:@"测试字符是否为空"];
 }
 
 - (void)didReceiveMemoryWarning
